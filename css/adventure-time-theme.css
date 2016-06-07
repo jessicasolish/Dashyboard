@@ -1,0 +1,135 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+body {
+	background-color: #E8E8E8;
+}
+
+.sidebar-toggle-box, .logo {
+	display: inline;
+}
+.main-content{
+	margin-top: 550px;
+	margin-left: -230px;
+}
+
+/*Escribe aqui tu codigo */
+.header{	
+	width: 100%;
+	position: 
+	fixed;z-index: 2;
+	display: inline;
+}
+#sidebar{
+	z-index: 1;
+	height: 100%;
+	top: 55px;
+	margin-left: 210;
+	position: 
+	fixed;
+}
+.sidebar-menu{	
+	background-color:  #5E5959;
+	width: 150px;height: 100%;
+	position: fixed;color: 
+	white;list-style: none
+}
+.activ{
+	background-color:  #5E5959;
+}
+.logout{
+	background-color: #BE0DC9;
+	border-radius: 10px;
+	color: white;
+	padding-top: 7%;
+}
+.wrapper{
+	padding: 20px;
+}
+.hidden-xs{
+	color: white;
+	font-size: 15px;
+	margin-left: 16px;
+}
+.visible-xs{
+	color: white;
+	font-size: 15px;
+}
+.sub-menu{
+	margin-top: 20%;
+}
+ul.sidebar-menu li a{
+	text-decoration: none;
+	color: white;
+}
+.tex-center{
+	display: inline;
+	font-size: 5px;
+}
+.logo{
+	color: white;
+}
+.tooltips{
+	color: white;
+	font-size: 15px;
+}
+.site-min-height{
+	padding-top: 10%;
+}
+h3 {
+	border-bottom: 1px solid #878181;
+}
+.box1 span{
+	background-color: white;
+	color:#878181;
+	font-size: 40px;
+}
+.box0 p{
+	text-align: center;
+	color:red;
+	display: none;
+	font-size: 10px;
+	margin-top: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+.box0:hover p{
+	display: block;
+}
+.box0:hover{
+	background-color: white;
+	padding: 1%; 
+	border-bottom: 1px solid white;
+}
+.bg-theme{
+	background-color: #1AEDC3; 
+}
+.ds{
+	background-color: white;
+}
+.details{
+	margin-left: 40px;
+	padding-top: -30px;
+}
+.fa-plus a{
+	color: #428bca;
+}
+.fa-share-alt a{
+	color: #428bca;
+}
+.fa-ellipsis-h a{
+	color: #428bca;
+}
+.bonni{
+	font-size: 11px;
+}
